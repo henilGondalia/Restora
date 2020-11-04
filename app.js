@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
     triggerHook: 0,
     offset: "300",
   })
-    .setTween()
+    .setTween(timeline)
     .setPin(".first-section")
     .addTo(controller);
 
